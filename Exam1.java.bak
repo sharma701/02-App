@@ -7,7 +7,7 @@ class Exam1
 	}
 	Exam1(int a)
 	{
-		System.out.println("i love my india");
+		System.out.println("Exam 1  int parem constructor");
 	}
 	
 	public static void main(String[] args){

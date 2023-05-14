@@ -1,0 +1,20 @@
+class RevlString1
+{
+
+public static void main(String[] args) {
+  String input="Aliv   eis  Aweso  me";
+
+  //StringBuilder input1 = new StringBuilder();
+  //input1.append(input);
+  String [] s2=input.split("\\s");
+  for(String s3:s2)
+  System.out.println(s3);
+  char [] ch=input.toCharArray();
+ for(char ch1:ch)
+  System.out.println(ch1);
+  }
+ // input1=input1.reverse(); 
+  // System.out.println(input1);
+  //for (int i=0;i<input1.length();i++)
+ // System.out.println(input1.charAt(i)); -->  
+ }

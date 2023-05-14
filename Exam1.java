@@ -1,18 +1,22 @@
-class Exam1 
+
+public class Exam1 
 {
+	String name;
+	int no;
+
+	public Exam1(String name,int no){
+		this.name=name;
+		this.no=no;
+	}
 	
-	Exam1()
-	{
-		System.out.println("Exam 1 constructor");
-	}
-	Exam1(int a)
-	{
-		System.out.println("i love my india");
-	}
 	
 	public static void main(String[] args){
-		Exam1 e1=new Exam1();
-		Exam1 e1=new Exam1(10);
+		//String str1="ABC";
+		String str1=new String("ABC",1);
+		String str2=new String("ABC",2);
+		System.out.println(str1==str2);
+		System.out.println(str1.equals(str2));
+
 	}
 
 }

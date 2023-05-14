@@ -1,0 +1,16 @@
+@FunctionalInterface
+interface itref 
+{
+	public void m1();
+	//public void m4();
+	default void m2(){
+	}
+public static void m3(){
+}
+
+}
+@FunctionalInterface
+interface B extends itref
+{
+	public void m1();
+}
